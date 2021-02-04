@@ -1,5 +1,5 @@
 /* Proprietà @media */
-@media screen and (max-width: 420px){
+@media screen and (min-width: 421px) and (max-width: 768px){
   *{
     margin:0;
     padding: 0;
@@ -14,9 +14,9 @@
   /* Comportamento riga */
   .row{
     width: 100%;
-    margin: 5px 0;
-    padding: 0 10px;
-    font-size: 0.8em;
+    margin: 10px 0;
+    padding: 0 10%;
+    font-size: 0.9em;
   }
   /* Comportamento colonne */
   #lezioni .row > .left, #lezioni .row > .right, #steps .row > .left, #steps .row > .central, #steps .row > .right{
@@ -28,7 +28,7 @@
   img, #why .row img{
     max-width: 100%;
     height: auto;
-    max-height: 110px;
+    max-height: 150px;
     padding: 0;
   }
   /* Righe finali 'vantaggi' */
