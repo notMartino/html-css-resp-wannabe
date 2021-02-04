@@ -1,0 +1,41 @@
+/* Proprietà @media */
+@media screen and (max-width: 420px){
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h3, hr{
+     margin: 10px 0;
+  }
+  h1{
+    padding: 10px 0;
+  }
+  /* Comportamento riga */
+  .row{
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 0.8em;
+  }
+  /* Comportamento colonne */
+  #lezioni .row > .left, #lezioni .row > .right, #steps .row > .left, #steps .row > .central, #steps .row > .right{
+    width: 100%;
+    float: none;
+    margin-bottom: 30px;
+  }
+    /* Comportamento imgs */
+  img, #why .row img{
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+    padding: 0;
+  }
+  /* Righe finali 'vantaggi' */
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    margin-top: 20px;
+  }
+  .third{
+    margin-bottom: 10px;
+  }
+}
