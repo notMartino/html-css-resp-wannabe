@@ -1,4 +1,5 @@
-/* Proprietà @media */
+/* Proprietà @media BONUS */
+/* P.S. Le proprietà sono ripetute, con alcune piccolissime variazioni, in quanto i bonus sono su files separati. Avrei potuto fare il contrario partendo dal tablet e sistemando qualche piccolo dettaglio su smartphone. Ma essendo la consegna principale su smathphone sono costretto ad essere ridondante. */
 @media screen and (min-width: 421px) and (max-width: 768px){
   *{
     margin:0;
